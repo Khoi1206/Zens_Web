@@ -5,11 +5,35 @@
 }
 
 .img-1 {
-    width: 150px;
-    height: 150px;
+    width: 65px;
+    height: 65px;
+}
+
+.img-2 {
+    width: 50px;
+    height: 50px;
 }
 
 .btn-vote {
     padding-left: 25px;
     padding-right: 25px;
+}
+
+span.text-1{
+    font-style: italic;
+    font-size: 14px;
+}
+
+span.text-2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer_message {
+    font-size: 12px;
+    margin: 25px 50px;
+}
+
+.footer_sigh {
+    padding-bottom: 20px;
 }

@@ -18,7 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get(
-    '/story/read',
-    [StoryController::class, 'read']
-)->name('story');
+Route::get('/story/read', [StoryController::class, 'read']);
+Route::get('/story/vote/{id}/{vote}', [StoryController::class, 'vote']);
+Route::get('/story/btn-read', [StoryController::class, 'btnRead']);
