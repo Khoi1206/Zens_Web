@@ -37,3 +37,17 @@ span.text-2{
 .footer_sigh {
     padding-bottom: 20px;
 }
+
+.joke_description{
+    margin: 0 14px;
+}
+
+/* Smartphone */
+@media screen and (max-width:767px){
+
+}
+
+/* Tablet */
+@media screen and (min-width:767px) and (max-width:1023px){
+
+}

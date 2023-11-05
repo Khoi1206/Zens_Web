@@ -56,8 +56,8 @@
                     <p>{{ $story['description']; }}</p>
 
                     <div class="col-12 text-center p-5">
-                        <button type="submit" class="btn btn-primary rounded-0 btn-vote mr-2" data-id="{{ $story['id'] }}" data-vote="1">This is Funny!</button>
-                        <button type="submit" class="btn btn-success rounded-0 btn-vote ml-2" data-id="{{ $story['id'] }}" data-vote="0">This is not funny.</button>
+                        <button type="button" class="btn btn-primary rounded-0 btn-vote mr-2" data-id="{{ $story['id'] }}" data-vote="1">This is Funny!</button>
+                        <button type="button" class="btn btn-success rounded-0 btn-vote ml-2" data-id="{{ $story['id'] }}" data-vote="0">This is not funny.</button>
                     </div>
 
                     @break;
